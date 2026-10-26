@@ -14,9 +14,16 @@ agent không chạm được.
   hỏng). Công cụ không đặt giá, không đọc sổ, không ghi giao dịch.
 - Không có secret nào trong repo này. Agent không giữ key thanh toán hay key production.
 
+## Giấy phép
+
+[PolyForm Noncommercial 1.0.0](LICENSE.md): được xem, học và dùng cho mục đích phi thương mại;
+không được dùng thương mại.
+
 ## The workshop (English)
 
 Code in this repository is written by an AI agent playing the character Satoshi and reviewed by the
 owner before anything reaches production. The ledger and payment code live in a separate platform
 repository the agent cannot modify. Tools talk to the platform only through a narrow, scoped
 Workshop API.
+
+Licensed under [PolyForm Noncommercial 1.0.0](LICENSE.md): noncommercial use only.
